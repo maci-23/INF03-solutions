@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Atlas drzew</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Atlas drzew</h1>
+    </header>
+    <aside>
+        <h3>Wybierz drzewo, aby przeczytać o nim informacje</h3>
+
+        <section>
+            <img src="buk.jpg" alt="buk" onclick="pokaz(0)">
+            <img src="lipa.jpg" alt="lipa" onclick="pokaz(1)">
+            <img src="wierzba.jpg" alt="wierzba" onclick="pokaz(2)">
+            <img src="brzoza.jpg" alt="brzoza" onclick="pokaz(3)">
+            <img src="dab.jpg" alt="dab" onclick="pokaz(4)">
+            <img src="kasztanowiec.jpg" alt="kasztanowiec" onclick="pokaz(5)">
+            <img src="jarzebina.jpg" alt="jarzebina" onclick="pokaz(6)">
+            <img src="klon.jpg" alt="klon" onclick="pokaz(7)">
+            <img src="magnolia.jpg" alt="magnolia" onclick="pokaz(8)">
+        </section>
+
+        <input type="text" placeholder="Wyszukaj drzewo..." id="nazwaDrzewa">
+
+        <button type="button" onclick="szukaj()">Szukaj</button>
+    </aside>
+    <nav>
+        <ul>
+            <li><a href="lisciaste.html">drzewa liściaste</a></li>
+            <li><a href="iglaste.png">drzewa iglaste</a></li>
+            <li><a href="owocowe.png">drzewa owocowe</a></li>
+        </ul>
+    </nav>
+    <main id="glowny">
+        <p class="opis">
+            Witamy w naszym <strong>"Atlasie drzew"</strong>, miejscu stworzonym dla miłośników przyrody, badaczy i wszystkich, którzy chcą zgłębić tajemnice drzew. 
+            Drzewa, te majestatyczne i różnorodne elementy naszej planety, pełnią kluczową rolę w ekosystemach na całym świecie. 
+            Od pradawnych lasów deszczowych po miejskie parki, drzewa dostarczają nam nie tylko tlenu, ale także inspiracji, piękna i zrozumienia natury.
+        </p>
+    </main>
+    <footer>
+        <p>Autor: maci</p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+</html>

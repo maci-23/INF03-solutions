@@ -1,0 +1,4 @@
+1. SELECT nazwa, nazwaNaukowa, sredniaDlugoscZycia FROM gatunki WHERE rodzaj = 2 ORDER BY sredniaDlugoscZycia DESC;
+2. SELECT drzewa.id, drzewa.stanZdrowia, gatunki.nazwa FROM drzewa JOIN gatunki ON gatunki.id = drzewa.gatunek_id WHERE drzewa.dataPosadzenia = "2008-06-06";
+3. SELECT rodzaj, COUNT(*) AS "ilość" FROM gatunki GROUP BY rodzaj;
+4. SELECT gatunki.nazwa, drzewa.dataPosadzenia, drzewa.stanZdrowia FROM gatunki JOIN drzewa ON drzewa.gatunek_id = gatunki.id JOIN lokalizacje ON lokalizacje.id = drzewa.lokalizacja_id WHERE lokalizacje.opis = "Gdańsk, Polska" AND gatunki.nazwa LIKE "%a";
