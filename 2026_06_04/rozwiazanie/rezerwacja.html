@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Biuro turystyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Rezerwacja wycieczek</h1>
+    </header>
+    <main>
+        <nav>
+            <button type="button" id="btnUczestnik" onclick="uczestnik()">Uczestnik</button>
+
+            <button type="button" id="btnRezerwacja" onclick="rezerwacja()">Rezerwacja</button>
+        </nav>
+        <section id="pierwsza">
+            <h2>Dane klienta</h2>
+        
+            <img src="osoba.png" alt="Klient"><br>
+        
+            <label for="imie">Imię</label>
+            <input type="text" id="imie"><br>
+        
+            <label for="nazwisko">Nazwisko</label>
+            <input type="text" id="nazwisko"><br>
+        
+            <p><a href="wycieczki.html">Do strony głównej</a></p>
+        </section>
+        <section id="druga">
+            <h2>Dane rezerwacji</h2>
+
+            <span onclick="poprzednie()">&laquo;</span>
+
+            <img src="1.jpg" alt="wycieczka" id="zdjecieWycieczki">
+
+            <span onclick="nastepne()">&raquo;</span>
+
+            <h4 id="miejsceWycieczki">Barcelona</h4>
+
+            <label for="osoby">Liczba osób</label>
+            <input type="number" id="osoby" min="1" max="4" value="2" disabled><br>
+
+            <label for="wylot">Miejsce wylotu</label>
+            <select id="wylot" disabled>
+                <option>Warszawa</option>
+                <option>Kraków</option>
+                <option>Wrocław</option>
+            </select><br>
+
+            <input type="radio" name="poleRadio" id="pole1" disabled checked>
+            <label for="pole1">Śniadania</label>
+
+            <input type="radio" name="poleRadio" id="pole2" disabled>
+            <label for="pole2">Śniadania i obiadokolacje</label>
+
+            <input type="radio" name="poleRadio" id="pole3" disabled>
+            <label for="pole3">All inclusive</label><br>
+
+            <button type="button">Sprawdź cenę</button>
+        </section>
+        <aside>
+            <img src="1.jpg" alt="wycieczki">
+            <img src="2.jpg" alt="wycieczki">
+            <img src="3.jpg" alt="wycieczki">
+            <img src="1.jpg" alt="wycieczki">
+            <img src="2.jpg" alt="wycieczki">
+            <img src="3.jpg" alt="wycieczki">
+            <img src="1.jpg" alt="wycieczki">
+            <img src="2.jpg" alt="wycieczki">
+            <img src="3.jpg" alt="wycieczki">
+        </aside>
+    </main>
+    <footer>
+        <p>Autor strony: <em>maci</em></p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+</html>
