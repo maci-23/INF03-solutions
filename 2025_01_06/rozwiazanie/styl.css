@@ -1,29 +1,29 @@
-body{
+body {
     font-family: Georgia;
     color: white;
 }
 
-header, footer{
+header, footer {
     background-color: #824555;
     text-align: center;
     padding: 20px;
 }
 
-#lewy, #srodkowy{
+#lewy, #srodkowy {
     width: 30%;
     height: 350PX;
     float: left;
 }
 
-#lewy{
+#lewy { 
     background-color: #A26475;
 }
 
-#srodkowy{
+#srodkowy {
     background-color: #824555;
 }
 
-#prawy{
+#prawy {
     background-color: #A26470;
     width: 40%;
     height: 350px;
@@ -31,24 +31,24 @@ header, footer{
     float: left;
 }
 
-footer{
+footer {
     clear: both;
 }
 
-img{
+img {
     float: left;
     width: 50px;
 }
 
-table, p, dt{
+table, p, dt {
     margin: 10px;
 }
 
-dt{
+dt {
     padding-top: 20px;
 }
 
-td, th{
+td, th {
     border: 3px solid #824555;
     padding: 5px;
 }
