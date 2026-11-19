@@ -10,8 +10,8 @@ lista.addEventListener('click', function(event) {
     //Metoda closest() na klikniętym elemencie szuka od elementu w górę pierwszego, najbliższego przycisku
     const przyciskListy = event.target.closest("button");
 
-    if (przyciskListytagName === "BUTTON") {
-        przyciskListy.style.textDecoration = "line-through";
+    if (przyciskListy) {
+        przyciskListy.closest("li").style.textDecoration = "line-through";
     }
 });
 
