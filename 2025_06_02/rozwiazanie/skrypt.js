@@ -1,6 +1,5 @@
 function aktualizuj(przycisk) {
-    const elementListy = przycisk.parentElement;
-    elementListy.style.textDecoration = "line-through";
+    przycisk.parentElement.style.textDecoration = 'line-through';
 }
 
 function dodaj() {
