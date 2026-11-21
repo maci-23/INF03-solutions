@@ -41,7 +41,7 @@ function rezerwacja() {
 const zdjecieWycieczki = document.querySelector('#zdjecieWycieczki');
 const miejsceWycieczki = document.querySelector('#miejsceWycieczki');
 
-//Obiekt: wycieczki. Właściwości: obraz, miejsce.
+//Tablica obiektów wycieczki  Właściwości: obraz, miejsce.
 const wycieczki = [
     {obraz: '1.jpg', miejsce: 'Barcelona'},
     {obraz: '2.jpg', miejsce: 'Rzym'},
