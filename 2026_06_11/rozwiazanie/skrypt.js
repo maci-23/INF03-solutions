@@ -28,17 +28,9 @@ function pokaz(indeks) {
 
 function szukaj() {
     const nazwa = document.getElementById("nazwaDrzewa").value;
-    let indeks = -1;
 
-    for (let i = 0; i < nazwyDrzew.length; i++) {
-        if (nazwyDrzew[i] === nazwa) {
-            indeks = i;
-            break;
-        }
-    }
-
-    if (indeks !== -1) {
-        pokaz(indeks);
+    if (nazwyDrzew.includes(nazwa)) {
+        pokaz(nazwyDrzew.indexOf(nazwa));
     } else {
         blokGlowny.textContent = "Drzewo, o którym chcesz znaleźć informacje, nie ma w naszym Atlasie drzew.";
     }
