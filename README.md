@@ -1,6 +1,6 @@
 # INF03 - rozwiązania arkuszy
 
-Moje rozwiązania zadań praktycznych INF.03 – JavaScript.
+Moje rozwiązania zadań praktycznych INF.03 – JavaScript i projekty dodatkowe.
 
 ## Rozwiązania konkretnych arkuszy:
 
@@ -10,3 +10,5 @@ Moje rozwiązania zadań praktycznych INF.03 – JavaScript.
 - 2025 Czerwiec, Zadanie 2 [Notatki](https://github.com/maci-23/INF03-solutions/tree/main/2025_06_02/rozwiazanie)
 - 2025 Styczeń, Zadanie 6 [Pozycyjne systemy liczbowe](https://github.com/maci-23/INF03-solutions/tree/main/2025_01_06/rozwiazanie)
 - 2024 Czerwiec, Zadanie 2 [Chat](https://github.com/maci-23/INF03-solutions/tree/main/2024_06_02/rozwiazanie)
+- 2024 Czerwiec, Zadanie 12 [Efekty na obrazach](https://github.com/maci-23/INF03-solutions/tree/main/2024_06_12/rozwiazanie)
+- 2022 Styczeń, Zadanie 7 [Galeria miejsc ciekawych](https://github.com/maci-23/INF03-solutions/tree/main/2022_01_07/rozwiazanie)
