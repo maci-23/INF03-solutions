@@ -32,6 +32,6 @@ function szukaj() {
     if (nazwyDrzew.includes(nazwa)) {
         pokaz(nazwyDrzew.indexOf(nazwa));
     } else {
-        blokGlowny.textContent = "Drzewo, o którym chcesz znaleźć informacje, nie ma w naszym Atlasie drzew.";
+        blokGlowny.textContent = "Drzewa, o którym chcesz znaleźć informacje, nie ma w naszym Atlasie drzew.";
     }
 }
