@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h2>Efekty na obrazach</h2>
+    </header>
+    <section>
+        <img src="pszczola.jpg" id="obraz1" alt="pszczoła na fioletowym kwiatku">
+        <br>
+
+        <input type="radio" name="efekt" id="blur"> Blur<br>
+        <input type="radio" name="efekt" id="sepia"> Sepia<br>
+        <input type="radio" name="efekt" id="negatyw"> Negatyw<br>
+
+        <button onclick="efekt1()">Zastosuj</button>
+    </section>
+    <section>
+        <img src="pomarancza.jpg" alt="drzewo pomarańczy" id="obraz2">
+        <br>
+        
+        <button onclick="kolor()">Kolorowy</button>
+        <button onclick="czarnoBialy()">Czarno-biały</button>
+    </section>
+    <section>
+        <img src="owoce.jpg" alt="Kosz pełen owoców" id="obraz3">
+
+        <input type="range" min="0" max="100" value="100" id="suwak1"><br>
+
+        <button onclick="efekt3()">Zastosuj</button>
+    </section>
+    <section>
+        <img src="zolw.jpg" alt="Żółw w wodzie" id="obraz4">
+
+        <input type="range" min="0" max="250" id="suwak2"><br>
+
+        <button onclick="efekt4()">Zastosuj</button>
+    </section>
+    <footer>
+        <p><a href="http://www.css.com/" target="_blank">Zobacz inne efekty obrazu</a></p>
+
+        <p>Stronę wykonał: maci</p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+</html>
