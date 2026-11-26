@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tatuaże</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header id="naglowkowy1">
+        <img src="logo.png" alt="salon">
+    </header>
 
+    <header id="naglowkowy2">
+        <h1>Studio Tatuażu</h1>
+    </header>
+
+    <section>
+        <h2>Galeria</h2>
+
+        <img src="smok.png" alt="smok.png" class="miniatury">
+        <img src="koliber.png" alt="koliber.png" class="miniatury">
+    </section>
+
+    <aside>
+        <h3>Dodaj wzór</h3>
+
+        <label for="plik">Wzór:</label><br>
+        <input type="file" accept="image/png" id="plik"><br>
+
+        <label for="kolor">Kolor:</label><br>
+        <select id="kolor">
+            <option>Czarny</option>
+            <option>Czerwony</option>
+            <option>Zielony</option>
+            <option>Niebieski</option>
+        </select><br>
+
+        <label for="cena">Cena:</label><br>
+        <input type="number" id="cena"><br>
+
+        <button type="button" id="przycisk">Dodaj wzór</button>
+    </aside>
+
+    <footer>
+        <p>Autor strony: maci</p>
+    </footer>
+    
+    <script src="skrypt.js"></script>
+</body>
+</html>
