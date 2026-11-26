@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pola figur</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h2>Pola figur płaskich</h2>
+    </header>
+    <main>
+        <nav>
+            <h3>MENU</h3>
+            <ul>
+                <li><a href="index.html">Prostokąt i trójkąt</a></li>
+                <li><a href="kolo.html">Okrąg i koło</a></li>
+            </ul>
+        </nav>
+        <section>
+            <img src="1d.bmp" alt="Figura" id="obraz_d"><br>
+            <img src="1m.bmp" alt="Wybierz trójkąt" class="obrazy" onclick="zmien('1d.bmp')">
+            <img src="2m.bmp" alt="Wybierz prostokąt" class="obrazy" onclick="zmien('2d.bmp')">
+        </section>
+        <aside>
+            <h3>Pole prostokąta / pole trójkąta</h3>
+            <label for="bok1">Bok prostokąta / podstawa trójkąta</label><br>
+            <input type="number" id="bok1"><br>
 
+            <label for="bok2">Drugi bok prostkąta / wysokość trójkąta</label><br>
+            <input type="number" id="bok2"><br>
+
+            <button type="button" onclick="oblicz()">Oblicz</button>
+
+            <p id="wynik"></p>
+        </aside>
+    </main>
+    <footer>
+        <p>Autor: maci</p>
+    </footer>
+</body>
+<script src="skrypt.js"></script>
+</html>
